@@ -1,0 +1,52 @@
+{
+  "about-section": {
+    "title": "Sobre mi",
+    "description": "Desarrollador web con experiencia en HTML, CSS, JS, React. Mejora la presencia en línea. Con ganas de crecer."
+  },
+  "experience-box": {
+    "title": "Años de experiencia"
+  },
+  "location-box": {
+    "title": "De Santa Fe, Argentina"
+  },
+  "projects-section": {
+    "title": "Proyectos",
+    "description": "Estos son algunos de mis projectos:",
+    "work-experience": "",
+    "personal-experience": "Experiencia personal",
+    "projects": {
+      "chessapp": "Un simple juego de ajedrez.",
+      "portfolio": "Este es mi portafolio.",
+      "devminds": "La pagina de mi propia compania de Desarrollo Web.",
+      "femme": "Ecommerce de Femme."
+    }
+  },
+  "technologies-section": {
+    "title": "Tecnologías",
+    "description": "Estas son las tecnologias que yo utilizo:"
+  },
+  "experience-section": {
+    "title": "",
+    "description": "",
+    "companies": {
+      "": {
+        "dates": ""
+      },
+      "": {
+        "dates": ""
+      },
+      "": {
+        "dates": ""
+      },
+      "": {
+        "dates": ""
+      }
+    }
+  },
+  "others-translations": {
+    "degree": "Desarrollador Front-End",
+    "visit": "Visita",
+    "copy-right": "Todos los derechos reservados",
+    "last-update": ""
+  }
+}

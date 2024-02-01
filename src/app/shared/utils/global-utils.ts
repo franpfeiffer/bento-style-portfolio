@@ -1,0 +1,119 @@
+import {
+	IDevToolsElement,
+	IProjectCard,
+} from '../models/global-interface.ts'  //IExperienceCard
+import { v4 as uuid } from 'uuid'
+import chess_app from '../../../assets/chessapp.png'
+import femme_img from '../../../assets/femme.png'
+import devminds_img from '../../../assets/devmind-b.png'
+import portfolio_img from '../../../assets/portfolio.png'
+
+export const Projects: IProjectCard[] = [
+	{
+		id: uuid(),
+		project_name: 'Chess App',
+		description: 'projects-section.projects.chessapp',
+		screenShot: chess_app,
+		demoLink: 'https://chesspvp.vercel.app',
+		className: 'lg:row-span-3 xl:col-span-4',
+		index: 1,
+		technologies: ['React', 'TypeScript', 'CSS3'],
+	},
+	{
+		id: uuid(),
+		project_name: 'Femme',
+		description: 'projects-section.projects.femme',
+		screenShot: femme_img,
+		demoLink: 'https://coming-soon-fran.netlify.app',
+		className: 'lg:row-span-2 xl:col-span-4',
+		index: 2,
+		technologies: ['React', 'JavaScript', 'CSS3'],
+	},
+	{
+		id: uuid(),
+		project_name: 'My Portfolio',
+		description: 'projects-section.projects.portfolio',
+		screenShot: portfolio_img,
+		demoLink: 'franciscopfeiffer.vercel.app',
+		className: 'lg:row-span-3 xl:col-span-4',
+		isPrivate: true,
+		index: 3,
+		technologies: ['React', 'TypeScript', 'TailwindCSS'],
+	},
+	{
+		id: uuid(),
+		project_name: 'DevMinds',
+		description: 'projects-section.projects.devminds',
+		screenShot: devminds_img,
+		demoLink: 'https://coming-soon-fran.netlify.app',
+		className: 'lg:row-span-2 xl:col-span-4',
+		index: 4,
+		technologies: ['React', 'JavaScript', 'CSS3'],
+	},
+]
+// export const Experiences: IExperienceCard[] = [
+// 	{
+// 		id: uuid(),
+// 		company_logo: ,
+// 		company_name: '',
+// 		position_name: '',
+// 		dates: 'experience-section.companies.',
+// 		url_site: '',
+// 		background_url: ,
+// 	},
+// ]
+
+export const DevTools: IDevToolsElement[] = [
+	{
+		id: uuid(),
+		name: 'HTML5',
+		icon: 'https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg',
+	},
+	{
+		id: uuid(),
+		name: 'CSS3',
+		icon: 'https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg',
+	},
+	{
+		id: uuid(),
+		name: 'JavaScript',
+		icon: 'https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg',
+	},
+	{
+		id: uuid(),
+		name: 'TypeScript',
+		icon: 'https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg',
+	},
+	{
+		id: uuid(),
+		name: 'React',
+		icon: 'https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg',
+	},
+	{
+		id: uuid(),
+		name: 'Angular',
+		icon: 'https://upload.wikimedia.org/wikipedia/commons/c/cf/Angular_full_color_logo.svg',
+	},
+	{
+		id: uuid(),
+		name: 'Next.js',
+		icon: 'https://www.svgrepo.com/show/354113/nextjs-icon.svg',
+		className: 'dark:invert opacity-70',
+	},
+	{
+		id: uuid(),
+		name: 'Vite',
+		icon: 'https://upload.wikimedia.org/wikipedia/commons/f/f1/Vitejs-logo.svg',
+	},
+	{
+		id: uuid(),
+		name: 'Tailwind CSS',
+		icon: 'https://tailwindcss.com/_next/static/media/tailwindcss-mark.3c5441fc7a190fb1800d4a5c7f07ba4b1345a9c8.svg',
+	},
+	{
+		id: uuid(),
+		name: 'Node.js',
+		icon: 'https://www.svgrepo.com/show/355140/node.svg',
+	},
+
+]

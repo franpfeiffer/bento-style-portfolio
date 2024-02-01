@@ -1,0 +1,52 @@
+{
+  "about-section": {
+    "title": "About Me",
+    "description": "Experienced web developer in HTML, CSS, JS, React. Enhances online presence. Eager to grow."
+  },
+  "experience-box": {
+    "title": "Years of experience"
+  },
+  "location-box": {
+    "title": "From Santa Fe, Argentina"
+  },
+  "projects-section": {
+    "title": "Projects",
+    "description": "These are some of my projects:",
+    "work-experience": "Work Experience",
+    "personal-experience": "Personal Experience",
+    "projects": {
+      "chessapp": "A simple chess game.",
+      "portfolio": "This is my portfolio.",
+      "devminds": "My own Web Development company's Landing Page.",
+      "femme": "Femme Ecommerce."
+    }
+  },
+  "technologies-section": {
+    "title": "Technologies",
+    "description": "These are some of the technologies I've worked with:"
+  },
+  "experience-section": {
+    "title": "",
+    "description": "",
+    "companies": {
+      "": {
+        "dates": ""
+      },
+      "": {
+        "dates": ""
+      },
+      "": {
+        "dates": ""
+      },
+      "": {
+        "dates": ""
+      }
+    }
+  },
+  "others-translations": {
+    "degree": "Front-End Developer",
+    "visit": "Visit",
+    "copy-right": "All rights reserved.",
+    "last-update": ""
+  }
+}
