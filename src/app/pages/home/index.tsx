@@ -6,7 +6,7 @@ import { MdAlternateEmail, MdAutoGraph } from 'react-icons/md'
 import { FaGithub, FaLinkedin } from 'react-icons/fa6'
 import Header from '../../theme/components/Header'
 import { useThemeStore } from '../../shared/stores/useThemeStore.ts'
-import { Projects } from '../../shared/utils/global-utils.ts'   //Experiences
+import { Projects } from '../../shared/utils/global-utils.ts' //Experiences
 import face from '../../../assets/placeholder.png'
 import personal from '../../../assets/franchubg.png'
 import darkMap from '../../../assets/black_map.png'
