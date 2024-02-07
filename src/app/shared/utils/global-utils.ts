@@ -128,7 +128,7 @@ export const DevTools: IDevToolsElement[] = [
 	{
 		id: uuid(),
 		name: 'Rust',
-		icon: 'https://upload.wikimedia.org/wikipedia/commons/2/20/Rustacean-orig-noshadow.svgclear',
+		icon: 'https://upload.wikimedia.org/wikipedia/commons/0/0f/Original_Ferris.svg',
 	},
 
 
