@@ -8,7 +8,7 @@ import Header from '../../theme/components/Header'
 import { useThemeStore } from '../../shared/stores/useThemeStore.ts'
 import { Projects } from '../../shared/utils/global-utils.ts' //Experiences
 import face from '../../../assets/placeholder.png'
-import personal from '../../../assets/franchubg.png'
+import personal from '../../../assets/fran.webp'
 import darkMap from '../../../assets/black_map.png'
 import whiteMap from '../../../assets/white_map.png'
 import {
