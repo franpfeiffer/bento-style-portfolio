@@ -1,5 +1,5 @@
 import { GoHeartFill } from 'react-icons/go'
-import { FaLinkedin } from 'react-icons/fa6'
+import { FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa6'
 import { MdAlternateEmail } from 'react-icons/md'
 import { motion } from 'framer-motion'
 import { useTranslation } from 'react-i18next'
@@ -32,6 +32,24 @@ const Footer = () => {
 							title='Email me'
 						>
 							<MdAlternateEmail />
+						</a>
+						<a
+							className='flex items-center font-medium'
+							href='https://www.instagram.com/frapfeiffer'
+							target='_blank'
+							rel='noreferrer'
+							title='Instagram'
+						>
+							<FaInstagram />
+						</a>
+						<a
+							className='flex items-center font-medium'
+							href='https://twitter.com/frapfeiffer'
+							target='_blank'
+							rel='noreferrer'
+							title='Twitter'
+						>
+							<FaTwitter />
 						</a>
 						<a
 							className='flex items-center font-medium'
