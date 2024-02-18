@@ -34,7 +34,7 @@ export const Projects: IProjectCard[] = [
 		project_name: 'My Portfolio',
 		description: 'projects-section.projects.portfolio',
 		screenShot: portfolio_img,
-		demoLink: 'franciscopfeiffer.vercel.app',
+		demoLink: 'https://franciscopfeiffer.vercel.app',
 		className: 'lg:row-span-3 xl:col-span-4',
 		isPrivate: true,
 		index: 3,
