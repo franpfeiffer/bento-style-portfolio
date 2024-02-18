@@ -6,18 +6,17 @@ import { v4 as uuid } from 'uuid'
 import chess_app from '../../../assets/chessapp.png'
 import femme_img from '../../../assets/femme.png'
 import devminds_img from '../../../assets/devmind-b.png'
-import portfolio_img from '../../../assets/portfolio.png'
-
+import creditcard_img from '../../../assets/credit_card.png'
 export const Projects: IProjectCard[] = [
 	{
 		id: uuid(),
-		project_name: 'Chess App',
-		description: 'projects-section.projects.chessapp',
-		screenShot: chess_app,
-		demoLink: 'https://chesspvp.vercel.app',
+		project_name: 'Credit Card Validator App',
+		description: 'projects-section.projects.creditcard',
+		screenShot: creditcard_img,
+		demoLink: 'https://validateyourcreditcard.vercel.app',
 		className: 'lg:row-span-3 xl:col-span-4',
 		index: 1,
-		technologies: ['React', 'TypeScript', 'CSS3'],
+		technologies: ['React', 'JavaScript', 'CSS3'],
 	},
 	{
 		id: uuid(),
@@ -31,14 +30,14 @@ export const Projects: IProjectCard[] = [
 	},
 	{
 		id: uuid(),
-		project_name: 'My Portfolio',
-		description: 'projects-section.projects.portfolio',
-		screenShot: portfolio_img,
-		demoLink: 'https://franciscopfeiffer.vercel.app',
+		project_name: 'Chess App',
+		description: 'projects-section.projects.chessapp',
+		screenShot: chess_app,
+		demoLink: 'https://chesspvp.vercel.app',
 		className: 'lg:row-span-3 xl:col-span-4',
 		isPrivate: true,
-		index: 3,
-		technologies: ['React', 'TypeScript', 'TailwindCSS'],
+		index: 1,
+		technologies: ['React', 'TypeScript', 'CSS3'],
 	},
 	{
 		id: uuid(),

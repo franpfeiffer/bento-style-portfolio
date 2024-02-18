@@ -12,11 +12,11 @@
   "projects-section": {
     "title": "Proyectos",
     "description": "Estos son algunos de mis projectos:",
-    "work-experience": "",
-    "personal-experience": "Experiencia personal",
+    "work-experience": "Experiencia Laboral",
+    "personal-experience": "Experiencia Personal",
     "projects": {
+      "creditcard": "Una app para chequear si tu tarjeta de credito es valida",
       "chessapp": "Un simple juego de ajedrez.",
-      "portfolio": "Este es mi portafolio.",
       "devminds": "La pagina de mi propia compania de Desarrollo Web.",
       "femme": "Ecommerce de Femme."
     }

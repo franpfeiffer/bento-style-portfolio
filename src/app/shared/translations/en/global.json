@@ -15,8 +15,8 @@
     "work-experience": "Work Experience",
     "personal-experience": "Personal Experience",
     "projects": {
+      "creditcard": "An app to check if your credit card is valid.",
       "chessapp": "A simple chess game.",
-      "portfolio": "This is my portfolio.",
       "devminds": "My own Web Development company's Landing Page.",
       "femme": "Femme Ecommerce."
     }
