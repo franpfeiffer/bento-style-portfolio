@@ -1,11 +1,13 @@
 import { GoHeartFill } from 'react-icons/go'
-import { FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa6'
+import { FaInstagram, FaLinkedin, FaTwitter, FaXTwitter } from 'react-icons/fa6'
 import { MdAlternateEmail } from 'react-icons/md'
 import { motion } from 'framer-motion'
 import { useTranslation } from 'react-i18next'
 
 const Footer = () => {
 	const { t } = useTranslation('global')
+	const currentYear = new Date().getFullYear();
+
 	return (
 		<motion.footer
 			initial={{ opacity: 0, y: 20 }}
@@ -16,7 +18,7 @@ const Footer = () => {
 		>
 			<div className='w-full h-full bg-white dark:bg-raisin-black rounded-3xl flex items-center justify-between px-10'>
 				<div className='flex flex-col items-start opacity-50 max-w-[50%] lg:max-w-fit'>
-					<p>© 2024 Francisco Pfeiffer. {t('others-translations.copy-right')}</p>
+					<p>© {currentYear} Francisco Pfeiffer. {t('others-translations.copy-right')}</p>
 					<p className='items-center gap-2 hidden lg:flex'>
 						Made with React and love <GoHeartFill />
 					</p>
@@ -49,7 +51,7 @@ const Footer = () => {
 							rel='noreferrer'
 							title='Twitter'
 						>
-							<FaTwitter />
+							<FaXTwitter />
 						</a>
 						<a
 							className='flex items-center font-medium'

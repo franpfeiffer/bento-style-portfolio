@@ -1,7 +1,7 @@
 {
   "about-section": {
     "title": "About Me",
-    "description": "I'm a Front-End Developer. Also, I have a Software Development Company called DevMinds."
+    "description": "I'm a Front-End Developer and Graphic Designer. Also, I have a Software Development Company called DevMinds."
   },
   "experience-box": {
     "title": "Years of experience"
@@ -23,7 +23,7 @@
   },
   "technologies-section": {
     "title": "Technologies",
-    "description": "These are some of the technologies I've worked with:"
+    "description": "These are the technologies I've worked with:"
   },
   "experience-section": {
     "title": "",
@@ -44,7 +44,7 @@
     }
   },
   "others-translations": {
-    "degree": "Front-End Developer",
+    "degree": "FrontEnd Dev | Graphic Designer",
     "visit": "Visit",
     "copy-right": "All rights reserved.",
     "last-update": ""

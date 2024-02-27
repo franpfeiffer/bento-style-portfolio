@@ -1,7 +1,7 @@
 {
   "about-section": {
     "title": "Sobre mi",
-    "description": "Soy Desarrollador Front-End. Además, tengo una empresa de Desarrollo de Software llamada DevMinds."
+    "description": "Soy Desarrollador Front-End y Diseñador Grafico. Además, tengo una empresa de Desarrollo de Software llamada DevMinds."
   },
   "experience-box": {
     "title": "Años de experiencia"
@@ -44,7 +44,7 @@
     }
   },
   "others-translations": {
-    "degree": "Desarrollador Front-End",
+    "degree": "FrontEnd Dev | Diseñador Grafico",
     "visit": "Visita",
     "copy-right": "Todos los derechos reservados",
     "last-update": ""
