@@ -6,17 +6,17 @@ import { MdAlternateEmail, MdAutoGraph } from 'react-icons/md'
 import { FaGithub, FaLinkedin, FaXTwitter } from 'react-icons/fa6'
 import Header from '../../theme/components/Header'
 import { useThemeStore } from '../../shared/stores/useThemeStore.ts'
-import { Projects } from '../../shared/utils/global-utils.ts' //Experiences
+import { Projects, Experiences } from '../../shared/utils/global-utils.ts'
 import face from '../../../assets/placeholder.png'
 import personal from '../../../assets/fran.webp'
 import darkMap from '../../../assets/black_map.png'
 import whiteMap from '../../../assets/white_map.png'
 import {
-	// IExperienceCard,
+	IExperienceCard,
 	IProjectCard,
 } from '../../shared/models/global-interface.ts'
 import ProjectCard from '../../theme/components/ProjectCard/ProjectCard.tsx'
-// import ExperienceCard from '../../theme/components/ExperienceCard/ExperienceCard.tsx'
+import ExperienceCard from '../../theme/components/ExperienceCard/ExperienceCard.tsx'
 import Footer from '../../theme/components/Footer/Footer.tsx'
 import { AnimatedCounter } from '../../theme/components/AnimatedCounter/AnimatedCounter.tsx'
 import InfinityScroll from '../../theme/components/InfinityScroll/InfinityScroll.tsx'
@@ -235,6 +235,31 @@ const Home = () => {
 						viewport={{ once: true }}
 						className='text-3xl font-semibold'
 					>
+						{t('experience-section.title')}
+					</motion.h1>
+					<motion.p
+						initial={{ opacity: 0, y: 20 }}
+						whileInView={{ opacity: 1, y: 0 }}
+						transition={{ delay: 0, duration: 0.3 }}
+						viewport={{ once: true }}
+						className='opacity-70'
+					>
+						{t('experience-section.description')}
+					</motion.p>
+				</header>
+				<section className='w-full grid auto-rows-[260px] grid-cols-2 gap-4'>
+					{Experiences.map((experience: IExperienceCard) => (
+						<ExperienceCard {...experience} />
+					))}
+				</section>
+				<header className='w-full flex flex-col gap-2 text-center'>
+					<motion.h1
+						initial={{ opacity: 0, y: 20 }}
+						whileInView={{ opacity: 1, y: 0 }}
+						transition={{ delay: 0, duration: 0.3 }}
+						viewport={{ once: true }}
+						className='text-3xl font-semibold'
+					>
 						{t('technologies-section.title')}
 					</motion.h1>
 					<motion.p
@@ -260,31 +285,6 @@ const Home = () => {
 						<InfinityScroll />
 					</motion.div>
 				</section>
-				<header className='w-full flex flex-col gap-2 text-center'>
-					<motion.h1
-						initial={{ opacity: 0, y: 20 }}
-						whileInView={{ opacity: 1, y: 0 }}
-						transition={{ delay: 0, duration: 0.3 }}
-						viewport={{ once: true }}
-						className='text-3xl font-semibold'
-					>
-						{t('experience-section.title')}
-					</motion.h1>
-					<motion.p
-						initial={{ opacity: 0, y: 20 }}
-						whileInView={{ opacity: 1, y: 0 }}
-						transition={{ delay: 0, duration: 0.3 }}
-						viewport={{ once: true }}
-						className='opacity-70'
-					>
-						{t('experience-section.description')}
-					</motion.p>
-				</header>
-				{/* <section className='w-full grid auto-rows-[260px] grid-cols-8 gap-4'>
-					{Experiences.map((experience: IExperienceCard) => (
-						<ExperienceCard {...experience} />
-					))}
-				</section> */}
 			</main>
 			<Footer />
 		</div>

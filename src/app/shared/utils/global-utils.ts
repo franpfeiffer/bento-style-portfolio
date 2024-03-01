@@ -1,11 +1,14 @@
 import {
 	IDevToolsElement,
 	IProjectCard,
-} from '../models/global-interface.ts'  //IExperienceCard
+	IExperienceCard,
+} from '../models/global-interface.ts'
 import { v4 as uuid } from 'uuid'
 import chess_app from '../../../assets/chessapp.png'
 import femme_img from '../../../assets/femme.png'
-import devminds_img from '../../../assets/devmind-b.png'
+import devminds_img from '../../../assets/devminds-web.png'
+import devminds_img_back from '../../../assets/devmind-b2.png'
+import devminds_img_b from '../../../assets/devmind-w-square.png'
 import creditcard_img from '../../../assets/credit_card.png'
 export const Projects: IProjectCard[] = [
 	{
@@ -50,17 +53,17 @@ export const Projects: IProjectCard[] = [
 		technologies: ['React', 'JavaScript', 'CSS3'],
 	},
 ]
-// export const Experiences: IExperienceCard[] = [
-// 	{
-// 		id: uuid(),
-// 		company_logo: ,
-// 		company_name: '',
-// 		position_name: '',
-// 		dates: 'experience-section.companies.',
-// 		url_site: '',
-// 		background_url: ,
-// 	},
-// ]
+export const Experiences: IExperienceCard[] = [
+	{
+		id: uuid(),
+		company_logo: devminds_img_b,
+		company_name: 'DevMinds',
+		position_name: 'DevMinds',
+		dates: 'experience-section.companies.devmind.dates',
+		url_site: 'https://coming-soon-fran.netlify.app',
+		background_url: devminds_img_back,
+	},
+]
 
 export const DevTools: IDevToolsElement[] = [
 	{

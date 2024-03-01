@@ -26,19 +26,19 @@
     "description": "These are the technologies I've worked with:"
   },
   "experience-section": {
-    "title": "",
-    "description": "",
+    "title": "Work Experience",
+    "description": "The Companys I've worked with:",
     "companies": {
-      "": {
+      "devmind": {
+        "dates": "June 2023 - Currently"
+      },
+      "d": {
         "dates": ""
       },
-      "": {
+      "e": {
         "dates": ""
       },
-      "": {
-        "dates": ""
-      },
-      "": {
+      "f": {
         "dates": ""
       }
     }

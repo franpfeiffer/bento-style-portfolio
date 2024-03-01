@@ -26,19 +26,19 @@
     "description": "Estas son las tecnologias que yo utilizo:"
   },
   "experience-section": {
-    "title": "",
-    "description": "",
+    "title": "Experiencia Laboral",
+    "description": "Las companias con las que he trabajado:",
     "companies": {
-      "": {
+      "devmind": {
+        "dates": "Junio 2023 - Acutalidad"
+      },
+      "a": {
         "dates": ""
       },
-      "": {
+      "b": {
         "dates": ""
       },
-      "": {
-        "dates": ""
-      },
-      "": {
+      "c": {
         "dates": ""
       }
     }
