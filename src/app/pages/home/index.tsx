@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 import { useMediaQuery } from '@uidotdev/usehooks'
 import { useTranslation } from 'react-i18next'
 import { MdAlternateEmail, MdAutoGraph } from 'react-icons/md'
-import { FaGithub, FaLinkedin, FaSquareXTwitter, FaTwitter, FaX, FaXTwitter } from 'react-icons/fa6'
+import { FaGithub, FaLinkedin, FaXTwitter } from 'react-icons/fa6'
 import Header from '../../theme/components/Header'
 import { useThemeStore } from '../../shared/stores/useThemeStore.ts'
 import { Projects } from '../../shared/utils/global-utils.ts' //Experiences
