@@ -1,0 +1,4 @@
+This is a Brave Creators publisher verification file.
+
+Domain: franciscopfeiffer.vercel.app
+Token: 5f07376f16321446d1963a8ebb7d73dc8cd6dcc5eb5bc5cb2b9998cbfbbb3d11
