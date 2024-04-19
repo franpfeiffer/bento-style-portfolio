@@ -19,7 +19,7 @@ export const Projects: IProjectCard[] = [
 		demoLink: 'https://validateyourcreditcard.vercel.app',
 		className: 'lg:row-span-3 xl:col-span-4',
 		index: 1,
-		technologies: ['React', 'JavaScript', 'CSS3'],
+		technologies: ['Vitejs', 'React', 'JavaScript', 'CSS3'],
 	},
 	{
 		id: uuid(),
@@ -29,7 +29,7 @@ export const Projects: IProjectCard[] = [
 		demoLink: 'https://coming-soon-fran.netlify.app',
 		className: 'lg:row-span-2 xl:col-span-4',
 		index: 2,
-		technologies: ['React', 'JavaScript', 'CSS3'],
+		technologies: ['Nextjs', 'React', 'JavaScript', 'CSS3'],
 	},
 	{
 		id: uuid(),
@@ -50,7 +50,7 @@ export const Projects: IProjectCard[] = [
 		demoLink: 'https://devminds.me/',
 		className: 'lg:row-span-2 xl:col-span-4',
 		index: 4,
-		technologies: ['React', 'JavaScript', 'CSS3'],
+		technologies: ['Nextjs', 'React', 'TypeScript', 'TailwindCSS'],
 	},
 ]
 export const Experiences: IExperienceCard[] = [
