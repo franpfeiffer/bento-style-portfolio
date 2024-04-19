@@ -47,7 +47,7 @@ export const Projects: IProjectCard[] = [
 		project_name: 'DevMinds',
 		description: 'projects-section.projects.devminds',
 		screenShot: devminds_img,
-		demoLink: 'https://coming-soon-fran.netlify.app',
+		demoLink: 'https://devminds.me/',
 		className: 'lg:row-span-2 xl:col-span-4',
 		index: 4,
 		technologies: ['React', 'JavaScript', 'CSS3'],
@@ -60,7 +60,7 @@ export const Experiences: IExperienceCard[] = [
 		company_name: 'DevMinds',
 		position_name: 'DevMinds',
 		dates: 'experience-section.companies.devmind.dates',
-		url_site: 'https://coming-soon-fran.netlify.app',
+		url_site: 'https://devminds.me/',
 		background_url: devminds_img_back,
 	},
 ]
