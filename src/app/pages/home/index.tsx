@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 import { useMediaQuery } from '@uidotdev/usehooks'
 import { useTranslation } from 'react-i18next'
 import { MdAlternateEmail, MdAutoGraph } from 'react-icons/md'
-import { FaGithub, FaLinkedin, FaXTwitter } from 'react-icons/fa6'
+import { FaGithub, FaLinkedin } from 'react-icons/fa6'			// FaXTwitter (Ln 122)
 import Header from '../../theme/components/Header'
 import { useThemeStore } from '../../shared/stores/useThemeStore.ts'
 import { Projects, Experiences } from '../../shared/utils/global-utils.ts'
@@ -111,7 +111,7 @@ const Home = () => {
 								</a>
 								<a
 									className='flex items-center font-medium bg-moonlit px-4 py-2 rounded-lg text-dusky gap-2 active:scale-[1.1] transition-transform duration-300'
-									href='https://www.linkedin.com/in/francisco-pfeiffer-a93802261/'
+									href='https://www.linkedin.com/in/francisco-pfeiffer/'
 									target='_blank'
 									rel='noreferrer'
 									title='LinkedIn'
@@ -119,7 +119,7 @@ const Home = () => {
 									<FaLinkedin />
 									<span className='hidden lg:flex'>LinkedIn</span>
 								</a>
-								<a
+								{/* <a
 									className='flex items-center font-medium bg-moonlit px-3 py-2 rounded-lg text-dusky gap-2 active:scale-[1.1] transition-transform duration-300'
 									href='https://twitter.com/frapfeiffer'
 									target='_blank'
@@ -128,7 +128,7 @@ const Home = () => {
 								>
 									<FaXTwitter />
 									<span className='hidden lg:flex'>Twitter</span>
-								</a>
+								</a> */}
 								<a
 									className='flex items-center font-medium bg-moonlit px-4 py-2 rounded-lg text-dusky gap-2 active:scale-[1.1] transition-transform duration-300'
 									href='mailto:franciscopfeiffer.business@gmail.com'
