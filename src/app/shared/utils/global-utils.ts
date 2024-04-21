@@ -5,7 +5,7 @@ import {
 } from '../models/global-interface.ts'
 import { v4 as uuid } from 'uuid'
 import chess_app from '../../../assets/chessapp.png'
-import femme_img from '../../../assets/femme.png'
+import codeimage_img from '../../../assets/codecanvas.png'
 import devminds_img from '../../../assets/devminds-web.png'
 import devminds_img_back from '../../../assets/devmind-b2.png'
 import devminds_img_b from '../../../assets/devmind-w-square.png'
@@ -23,13 +23,13 @@ export const Projects: IProjectCard[] = [
 	},
 	{
 		id: uuid(),
-		project_name: 'Femme',
-		description: 'projects-section.projects.femme',
-		screenShot: femme_img,
-		demoLink: 'https://coming-soon-fran.netlify.app',
+		project_name: 'Codimage',
+		description: 'projects-section.projects.codimage',
+		screenShot: codeimage_img,
+		demoLink: 'https://codimage.vercel.app/',
 		className: 'lg:row-span-2 xl:col-span-4',
 		index: 2,
-		technologies: ['Nextjs', 'React', 'JavaScript', 'CSS3'],
+		technologies: ['Nextjs', 'React', 'TypeScript', 'TailwindCSS'],
 	},
 	{
 		id: uuid(),
