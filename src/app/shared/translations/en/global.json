@@ -1,7 +1,7 @@
 {
   "about-section": {
     "title": "About Me",
-    "description": "I'm a Front-End Developer and Graphic Designer. Also, I have a Software Development Company called DevMinds."
+    "description": "I'm a Full Stack Developer and Graphic Designer. Also, I have a Software Development Company called DevMinds."
   },
   "experience-box": {
     "title": "Years of experience"
@@ -44,7 +44,7 @@
     }
   },
   "others-translations": {
-    "degree": "FrontEnd Dev | Graphic Designer",
+    "degree": "Full Stack Dev | Graphic Designer",
     "visit": "Visit",
     "copy-right": "All rights reserved.",
     "last-update": ""

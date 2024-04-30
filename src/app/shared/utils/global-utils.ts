@@ -119,6 +119,16 @@ export const DevTools: IDevToolsElement[] = [
 	},
 	{
 		id: uuid(),
+		name: 'Java',
+		icon: 'https://www.vectorlogo.zone/logos/java/java-icon.svg',
+	},
+	{
+		id: uuid(),
+		name: 'MySQL',
+		icon: 'https://upload.wikimedia.org/wikiversity/en/e/ee/MySQL_Logo.png',
+	},
+	{
+		id: uuid(),
 		name: 'CPP',
 		icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg',
 	},
@@ -139,6 +149,11 @@ export const DevTools: IDevToolsElement[] = [
 	},
 	{
 		id: uuid(),
+		name: 'Figma',
+		icon: 'https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg',
+	},
+	{
+		id: uuid(),
 		name: 'Adobe Premiere Pro',
 		icon: 'https://upload.wikimedia.org/wikipedia/commons/4/40/Adobe_Premiere_Pro_CC_icon.svg',
 	},
@@ -154,17 +169,7 @@ export const DevTools: IDevToolsElement[] = [
 	},
 	{
 		id: uuid(),
-		name: 'Adobe InDesign',
-		icon: 'https://upload.wikimedia.org/wikipedia/commons/4/48/Adobe_InDesign_CC_icon.svg',
-	},
-	{
-		id: uuid(),
 		name: 'Adobe After Effects',
 		icon: 'https://upload.wikimedia.org/wikipedia/commons/c/cb/Adobe_After_Effects_CC_icon.svg',
-	},
-	{
-		id: uuid(),
-		name: 'Figma',
-		icon: 'https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg',
 	},
 ]
