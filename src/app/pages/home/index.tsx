@@ -124,7 +124,7 @@ const Home = () => {
 									href='https://twitter.com/frapfeiffer'
 									target='_blank'
 									rel='noreferrer'
-									title='GitHub'
+									title='X'
 								>
 									<FaXTwitter />
 									<span className='hidden lg:flex'>Twitter</span>
@@ -163,7 +163,7 @@ const Home = () => {
 					>
 						<p className='text-7xl z-[1] font-bold flex items-center gap-1'>
 							<span>+</span>
-							<AnimatedCounter from={0} to={2} />
+							<AnimatedCounter from={0} to={3} />
 						</p>
 						<p className='text-sm font-semibold max-w-fit opacity-70 z-[1]'>
 							{t('experience-box.title')}
