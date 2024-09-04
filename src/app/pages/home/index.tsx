@@ -2,7 +2,8 @@ import { useEffect, useState } from 'react'
 import { motion } from 'framer-motion'
 import { useMediaQuery } from '@uidotdev/usehooks'
 import { useTranslation } from 'react-i18next'
-import { MdAlternateEmail, MdAutoGraph } from 'react-icons/md'
+import { MdAutoGraph } from 'react-icons/md'
+import { PiCertificateFill } from "react-icons/pi";
 import { FaGithub, FaLinkedin } from 'react-icons/fa6'			// FaXTwitter (Ln 122)
 import Header from '../../theme/components/Header'
 import { useThemeStore } from '../../shared/stores/useThemeStore.ts'
@@ -14,7 +15,8 @@ import whiteMap from '../../../assets/white_map.png'
 import {
 	IExperienceCard,
 	IProjectCard,
-} from '../../shared/models/global-interface.ts'
+}
+from '../../shared/models/global-interface.ts'
 import ProjectCard from '../../theme/components/ProjectCard/ProjectCard.tsx'
 import ExperienceCard from '../../theme/components/ExperienceCard/ExperienceCard.tsx'
 import Footer from '../../theme/components/Footer/Footer.tsx'
@@ -131,11 +133,12 @@ const Home = () => {
 								</a> */}
 								<a
 									className='flex items-center font-medium bg-moonlit px-4 py-2 rounded-lg text-dusky gap-2 active:scale-[1.1] transition-transform duration-300'
-									href='mailto:franciscopfeiffer.business@gmail.com'
-									title='Email'
+									href='https://drive.google.com/drive/folders/1RA55jkQC92_0cZn5TAuDpECxPeAkZVS9?usp=sharing'
+									target='_blank'
+									title='Certificates'
 								>
-									<MdAlternateEmail />
-									<span className='hidden lg:flex'>Email</span>
+									<PiCertificateFill />
+									<span className='hidden lg:flex'>Certificates</span>
 								</a>
 							</div>
 						</div>
