@@ -7,18 +7,17 @@ import { PiCertificateFill } from "react-icons/pi";
 import { FaGithub, FaLinkedin } from 'react-icons/fa6'			// FaXTwitter (Ln 122)
 import Header from '../../theme/components/Header'
 import { useThemeStore } from '../../shared/stores/useThemeStore.ts'
-import { Projects, Experiences } from '../../shared/utils/global-utils.ts'
+import { Projects } from '../../shared/utils/global-utils.ts' //Experiences 
 import face from '../../../assets/placeholder.png'
 import personal from '../../../assets/fran.webp'
 import darkMap from '../../../assets/black_map.png'
 import whiteMap from '../../../assets/white_map.png'
 import {
-	IExperienceCard,
 	IProjectCard,
-}
+} // IExperienceCard,
 from '../../shared/models/global-interface.ts'
 import ProjectCard from '../../theme/components/ProjectCard/ProjectCard.tsx'
-import ExperienceCard from '../../theme/components/ExperienceCard/ExperienceCard.tsx'
+// import ExperienceCard from '../../theme/components/ExperienceCard/ExperienceCard.tsx'
 import Footer from '../../theme/components/Footer/Footer.tsx'
 import { AnimatedCounter } from '../../theme/components/AnimatedCounter/AnimatedCounter.tsx'
 import InfinityScroll from '../../theme/components/InfinityScroll/InfinityScroll.tsx'
