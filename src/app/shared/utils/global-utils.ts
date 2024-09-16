@@ -109,6 +109,11 @@ export const DevTools: IDevToolsElement[] = [
 	},
 	{
 		id: uuid(),
+		name: 'SQL',
+		icon: 'https://upload.wikimedia.org/wikipedia/commons/d/d7/Sql_data_base_with_logo.svg',
+	},
+	{
+		id: uuid(),
 		name: 'Node.js',
 		icon: 'https://www.svgrepo.com/show/355140/node.svg',
 	},
@@ -122,15 +127,10 @@ export const DevTools: IDevToolsElement[] = [
 		name: 'Java',
 		icon: 'https://www.vectorlogo.zone/logos/java/java-icon.svg',
 	},
-	{
+    {
 		id: uuid(),
-		name: 'MySQL',
-		icon: 'https://upload.wikimedia.org/wikiversity/en/e/ee/MySQL_Logo.png',
-	},
-	{
-		id: uuid(),
-		name: 'CPP',
-		icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg',
+		name: 'C#',
+		icon: 'https://upload.wikimedia.org/wikipedia/commons/b/bd/Logo_C_sharp.svg',
 	},
 	{
 		id: uuid(),
