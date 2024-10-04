@@ -15,9 +15,9 @@
     "work-experience": "Work Experience",
     "personal-experience": "Personal Experience",
     "projects": {
-      "creditcard": "An app to check if your credit card is valid.",
+      "rugbyclick": "The landing page of a well known broadcast and news media about rugby.",
       "chessapp": "A simple chess game.",
-      "devminds": "My own Web Development company's Landing Page.",
+      "devminds": "The landing page of a software development company.",
       "codimage": "An app that convert your code to an PNG image."
     }
   },

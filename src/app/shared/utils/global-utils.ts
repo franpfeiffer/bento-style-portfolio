@@ -9,17 +9,17 @@ import codeimage_img from '../../../assets/codecanvas.png'
 import devminds_img from '../../../assets/devminds-web.png'
 import devminds_img_back from '../../../assets/devmind-b2.png'
 import devminds_img_b from '../../../assets/devmind-w-square.png'
-import creditcard_img from '../../../assets/credit_card.png'
+import rugbyclick_photo from '../../../assets/rugbyclick-photo.png'
 export const Projects: IProjectCard[] = [
 	{
 		id: uuid(),
-		project_name: 'Credit Card Validator App',
-		description: 'projects-section.projects.creditcard',
-		screenShot: creditcard_img,
-		demoLink: 'https://validateyourcreditcard.vercel.app',
+		project_name: 'RugbyClick',
+		description: 'projects-section.projects.rugbyclick',
+		screenShot: rugbyclick_photo,
+		demoLink: 'https://rugbyclick-test.vercel.app',
 		className: 'lg:row-span-3 xl:col-span-4',
 		index: 1,
-		technologies: ['Vitejs', 'React', 'JavaScript', 'CSS3'],
+		technologies: ['Nextjs', 'React', 'TypeScript', 'TailwindCSS'],
 	},
 	{
 		id: uuid(),
@@ -28,6 +28,7 @@ export const Projects: IProjectCard[] = [
 		screenShot: codeimage_img,
 		demoLink: 'https://codimage.vercel.app/',
 		className: 'lg:row-span-2 xl:col-span-4',
+        isPrivate: true,
 		index: 2,
 		technologies: ['Nextjs', 'React', 'TypeScript', 'TailwindCSS'],
 	},

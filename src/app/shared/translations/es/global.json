@@ -15,9 +15,9 @@
     "work-experience": "Experiencia Laboral",
     "personal-experience": "Experiencia Personal",
     "projects": {
-      "creditcard": "Una app para chequear si tu tarjeta de credito es valida",
+      "rugbyclick": "La pagina de un medio de comunicación y noticia sobre el rugby.",
       "chessapp": "Un simple juego de ajedrez.",
-      "devminds": "La pagina de mi propia compania de Desarrollo Web.",
+      "devminds": "La pagina de una compania de desarrollo de software.",
       "codimage": "Una aplicación que convierte tu código en una imagen PNG."
     }
   },
