@@ -48,7 +48,7 @@ export const Projects: IProjectCard[] = [
 		project_name: 'DevMinds',
 		description: 'projects-section.projects.devminds',
 		screenShot: devminds_img,
-		demoLink: 'https://devminds.me/',
+		demoLink: 'https://devminds.vercel.app',
 		className: 'lg:row-span-2 xl:col-span-4',
 		index: 4,
 		technologies: ['Nextjs', 'React', 'TypeScript', 'TailwindCSS'],
