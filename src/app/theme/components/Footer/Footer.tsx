@@ -1,6 +1,5 @@
 import { GoHeartFill } from 'react-icons/go'
 import { FaInstagram, FaLinkedin, FaXTwitter } from 'react-icons/fa6'
-import { MdAlternateEmail } from 'react-icons/md'
 import { motion } from 'framer-motion'
 import { useTranslation } from 'react-i18next'
 
