@@ -18,9 +18,9 @@ const Footer = () => {
 		>
 			<div className='w-full h-full bg-white dark:bg-raisin-black rounded-3xl flex items-center justify-between px-10'>
 				<div className='flex flex-col items-start opacity-50 max-w-[50%] lg:max-w-fit'>
-					<p>© {currentYear} Francisco Pfeiffer. {t('others-translations.copy-right')}</p>
+					<p>© {currentYear} Francisco Pfeiffer. {t('others-translations.react-love')}</p>
 					<p className='items-center gap-2 hidden lg:flex'>
-						Made with React and love <GoHeartFill />
+                        {t('others-translations.thanks')} <GoHeartFill />
 					</p>
 				</div>
 				<div className='flex flex-col-reverse gap-3 items-end'>
@@ -28,13 +28,6 @@ const Footer = () => {
 						{t('others-translations.last-update')}
 					</p>
 					<div className='flex items-center gap-2 text-xl'>
-						<a
-							className='flex items-center font-medium'
-							href='mailto:franciscopfeiffer.business@gmail.com'
-							title='Email me'
-						>
-							<MdAlternateEmail />
-						</a>
 						<a
 							className='flex items-center font-medium'
 							href='https://www.instagram.com/frapfeiffer'
@@ -55,7 +48,7 @@ const Footer = () => {
 						</a>
 						<a
 							className='flex items-center font-medium'
-							href='https://www.linkedin.com/in/francisco-pfeiffer-a93802261/'
+							href='https://www.linkedin.com/in/franciscopfeiffer/'
 							target='_blank'
 							rel='noreferrer'
 							title='LinkedIn'

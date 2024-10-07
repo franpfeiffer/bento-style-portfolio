@@ -10,6 +10,9 @@ import devminds_img from '../../../assets/devminds-web.png'
 import devminds_img_back from '../../../assets/devmind-b2.png'
 import devminds_img_b from '../../../assets/devmind-w-square.png'
 import rugbyclick_photo from '../../../assets/rugbyclick-photo.png'
+import femme_img from '../../../assets/femme-logo.jpg'
+import femme_img_bg from '../../../assets/femme-logo-bg.jpg'
+
 export const Projects: IProjectCard[] = [
 	{
 		id: uuid(),
@@ -61,8 +64,19 @@ export const Experiences: IExperienceCard[] = [
 		company_name: 'DevMinds',
 		position_name: 'DevMinds',
 		dates: 'experience-section.companies.devmind.dates',
-		url_site: 'https://devminds.me/',
+		url_site: 'https://devminds.vercel.app/',
+        git_code: 'https://github.com/franpfeiffer/DevMinds-Landing-page',
 		background_url: devminds_img_back,
+	},
+	{
+		id: uuid(),
+		company_logo: femme_img,
+		company_name: 'Femme',
+		position_name: 'Femme',
+		dates: 'experience-section.companies.femme.dates',
+		url_site: 'https://www.instagram.com/femmelenceria/',
+        git_code: 'https://github.com/franpfeiffer/femme',
+		background_url: femme_img_bg,
 	},
 ]
 
@@ -94,34 +108,19 @@ export const DevTools: IDevToolsElement[] = [
 	},
 	{
 		id: uuid(),
+		name: 'Tailwind CSS',
+		icon: 'https://tailwindcss.com/_next/static/media/tailwindcss-mark.3c5441fc7a190fb1800d4a5c7f07ba4b1345a9c8.svg',
+	},
+	{
+		id: uuid(),
 		name: 'Next.js',
 		icon: 'https://www.svgrepo.com/show/354113/nextjs-icon.svg',
 		className: 'dark:invert opacity-70',
 	},
 	{
 		id: uuid(),
-		name: 'Vite',
-		icon: 'https://upload.wikimedia.org/wikipedia/commons/f/f1/Vitejs-logo.svg',
-	},
-	{
-		id: uuid(),
-		name: 'Tailwind CSS',
-		icon: 'https://tailwindcss.com/_next/static/media/tailwindcss-mark.3c5441fc7a190fb1800d4a5c7f07ba4b1345a9c8.svg',
-	},
-	{
-		id: uuid(),
-		name: 'SQL',
-		icon: 'https://upload.wikimedia.org/wikipedia/commons/d/d7/Sql_data_base_with_logo.svg',
-	},
-	{
-		id: uuid(),
-		name: 'Node.js',
-		icon: 'https://www.svgrepo.com/show/355140/node.svg',
-	},
-	{
-		id: uuid(),
-		name: 'Python',
-		icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg',
+		name: 'Golang',
+		icon: 'https://upload.wikimedia.org/wikipedia/commons/0/05/Go_Logo_Blue.svg',
 	},
 	{
 		id: uuid(),
@@ -135,13 +134,13 @@ export const DevTools: IDevToolsElement[] = [
 	},
 	{
 		id: uuid(),
-		name: 'C',
-		icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg',
+		name: 'Node.js',
+		icon: 'https://www.svgrepo.com/show/355140/node.svg',
 	},
 	{
 		id: uuid(),
-		name: 'Rust',
-		icon: 'https://upload.wikimedia.org/wikipedia/commons/0/0f/Original_Ferris.svg',
+		name: 'SQL',
+		icon: 'https://upload.wikimedia.org/wikipedia/commons/d/d7/Sql_data_base_with_logo.svg',
 	},
 	{
 		id: uuid(),

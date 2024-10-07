@@ -1,7 +1,7 @@
 {
   "about-section": {
     "title": "Sobre mi",
-    "description": "Soy Desarrollador Full Stack y Diseñador Grafico. Además, tengo una empresa de Desarrollo de Software llamada DevMinds."
+    "description": "Soy Desarrollador Full Stack y Diseñador Grafico. No sere el mas brillante, pero soy curioso y me adapto y aprendo muy rapido."
   },
   "experience-box": {
     "title": "Años de experiencia"
@@ -30,10 +30,10 @@
     "description": "Las companias con las que he trabajado:",
     "companies": {
       "devmind": {
-        "dates": "Junio 2023 - Acutalidad"
+        "dates": "Junio 2023 - Octubre 2024"
       },
-      "a": {
-        "dates": ""
+      "femme": {
+        "dates": "Septiembre 2023 - Octubre 2023"
       },
       "b": {
         "dates": ""
@@ -46,7 +46,8 @@
   "others-translations": {
     "degree": "Full Stack Dev | Diseñador Grafico",
     "visit": "Visita",
-    "copy-right": "Todos los derechos reservados",
+    "react-love": "Hecho con React y amor.",
+    "thanks": "Gracias por llegar hasta aca! ",
     "last-update": ""
   }
 }

@@ -1,0 +1,53 @@
+{
+  "about-section": {
+    "title": "Que es esto?",
+    "description": "Esto es un chiste porque estaba aburrido y queria agregarle algo gracioso a mi portfolio, por favor no lo tomen en serio <3."
+  },
+  "experience-box": {
+    "title": "Años de laburo"
+  },
+  "location-box": {
+    "title": "De aca son Los Palmeras"
+  },
+  "projects-section": {
+    "title": "Laburos",
+    "description": "Estos son algunos de los laburitos que hice.",
+    "work-experience": "Este fue laburo posta",
+    "personal-experience": "Esto lo hice porque me pinto",
+    "projects": {
+      "rugbyclick": "La pagina re fachera de un difusor de rugby muy conocido.",
+      "chessapp": "Un PvP de ajedrez flaco que mas info queres?",
+      "devminds": "La hermosa y divina pagina de un empresa de Desarrollo de Software.",
+      "codimage": "Esto agarra tu codigo horrible y le revolea brillitos para que no parezca tan feo."
+    }
+  },
+  "technologies-section": {
+    "title": "Pokede... digo Tech Stack",
+    "description": "Se decir hola mundo en todos estas cosas:"
+  },
+  "experience-section": {
+    "title": "Laburos Posta (son pocos porque le tengo panico a la pala)",
+    "description": "Las pobres personas que me dieron una chance:",
+    "companies": {
+      "devmind": {
+        "dates": "Junio 2023 - Octubre 2024"
+      },
+      "femme": {
+        "dates": "Septiembre 2023 - Octubre 2023"
+      },
+      "e": {
+        "dates": ""
+      },
+      "f": {
+        "dates": ""
+      }
+    }
+  },
+  "others-translations": {
+    "degree": "Dev Re Pro | Diseñador Re Pro",
+    "visit": "Juira",
+    "react-love": "Dios, Patria, Familia y React.",
+    "thanks": "Gracias por tu tiempo, espero que te haya sacado una sonrisa aunque sea. ",
+    "last-update": ""
+  }
+}

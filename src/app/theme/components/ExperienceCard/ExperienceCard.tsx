@@ -4,6 +4,7 @@ import { IExperienceCard } from '../../../shared/models/global-interface.ts';
 import { useHover } from '@uidotdev/usehooks';
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
+import { FaGithub } from 'react-icons/fa6'
 
 const ExperienceCard: FC<IExperienceCard> = ({
     id,
@@ -12,6 +13,7 @@ const ExperienceCard: FC<IExperienceCard> = ({
     position_name,
     dates,
     url_site,
+    git_code,
     background_url,
 }) => {
     const [ref, hovering] = useHover();
@@ -40,17 +42,26 @@ const ExperienceCard: FC<IExperienceCard> = ({
                     {t(dates)}
                 </p>
             </div>
-            <a
-                className='py-2 px-4 bg-[#0568fe] text-moonlit font-medium rounded-lg flex items-center gap-2 z-[1]'
+            <div className="flex gap-4">
+                <a
+                className="py-2 px-4 bg-[#444444] text-moonlit font-medium rounded-lg flex items-center gap-2 z-[1]"
                 href={url_site}
-                target='_blank'
+                target="_blank"
                 title={`${company_name} website`}
-            >
-                <span>
-                    {t('others-translations.visit')}&nbsp;
-                    {company_name}
-                </span>
-            </a>
+                >
+                    <span>
+                        {t('others-translations.visit')}&nbsp;
+                        {company_name}
+                    </span>
+                </a>
+                <a
+                className="py-2 px-4 bg-[#444444] text-moonlit font-medium rounded-lg flex items-center gap-2 z-[1]"
+                href={git_code}
+                target="_blank"
+                >
+                    <FaGithub />
+                </a>
+            </div>
             <img
                 className={`w-full h-full object-cover absolute left-0 top-0 z-0 dark:opacity-60 transition-all duration-300 ${hovering && 'scale-110'
                     }`}

@@ -1,7 +1,7 @@
 {
   "about-section": {
     "title": "About Me",
-    "description": "I'm a Full Stack Developer and Graphic Designer. Also, I have a Software Development Company called DevMinds."
+    "description": "I'm a Full Stack Software Developer and Graphic Designer. Not the sharpest tool in the shed, but I'm curious and a fast learner."
   },
   "experience-box": {
     "title": "Years of experience"
@@ -30,10 +30,10 @@
     "description": "The Companys I've worked with:",
     "companies": {
       "devmind": {
-        "dates": "June 2023 - Currently"
+        "dates": "June 2023 - October 2024"
       },
-      "d": {
-        "dates": ""
+      "femme": {
+        "dates": "September 2023 - October 2023"
       },
       "e": {
         "dates": ""
@@ -46,7 +46,8 @@
   "others-translations": {
     "degree": "Full Stack Dev | Graphic Designer",
     "visit": "Visit",
-    "copy-right": "All rights reserved.",
+    "react-love": "Made with React and love.",
+    "thanks": "Thanks for getting to here! ",
     "last-update": ""
   }
 }

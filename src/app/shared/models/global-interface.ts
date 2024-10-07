@@ -5,6 +5,7 @@ export interface IExperienceCard {
 	position_name: string
 	dates: string
 	url_site: string
+    git_code: string
 	background_url: string
 }
 
