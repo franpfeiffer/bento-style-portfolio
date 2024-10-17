@@ -93,6 +93,11 @@ export const DevTools: IDevToolsElement[] = [
 	},
 	{
 		id: uuid(),
+		name: 'Tailwind CSS',
+		icon: 'https://tailwindcss.com/_next/static/media/tailwindcss-mark.3c5441fc7a190fb1800d4a5c7f07ba4b1345a9c8.svg',
+	},
+	{
+		id: uuid(),
 		name: 'JavaScript',
 		icon: 'https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg',
 	},
@@ -105,17 +110,6 @@ export const DevTools: IDevToolsElement[] = [
 		id: uuid(),
 		name: 'React',
 		icon: 'https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg',
-	},
-	{
-		id: uuid(),
-		name: 'Tailwind CSS',
-		icon: 'https://tailwindcss.com/_next/static/media/tailwindcss-mark.3c5441fc7a190fb1800d4a5c7f07ba4b1345a9c8.svg',
-	},
-	{
-		id: uuid(),
-		name: 'Next.js',
-		icon: 'https://www.svgrepo.com/show/354113/nextjs-icon.svg',
-		className: 'dark:invert opacity-70',
 	},
 	{
 		id: uuid(),
@@ -141,11 +135,6 @@ export const DevTools: IDevToolsElement[] = [
 		id: uuid(),
 		name: 'SQL',
 		icon: 'https://upload.wikimedia.org/wikipedia/commons/d/d7/Sql_data_base_with_logo.svg',
-	},
-	{
-		id: uuid(),
-		name: 'DaVinci Resolve Studio',
-		icon: 'https://upload.wikimedia.org/wikipedia/commons/9/90/DaVinci_Resolve_17_logo.svg',
 	},
 	{
 		id: uuid(),

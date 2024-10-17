@@ -1,7 +1,7 @@
 {
   "about-section": {
     "title": "About Me",
-    "description": "I'm a Full Stack Software Developer and Graphic Designer. Not the sharpest tool in the shed, but I'm curious and a fast learner."
+    "description": "I'm a Software Developer and Graphic Designer. Not the sharpest tool in the shed, but I'm curious and a fast learner."
   },
   "experience-box": {
     "title": "Years of experience"
@@ -44,7 +44,7 @@
     }
   },
   "others-translations": {
-    "degree": "Full Stack Dev | Graphic Designer",
+    "degree": "Software Dev | Graphic Designer",
     "visit": "Visit",
     "react-love": "Made with React and love.",
     "thanks": "Thanks for getting to here! ",

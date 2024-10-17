@@ -1,7 +1,7 @@
 {
   "about-section": {
     "title": "Sobre mi",
-    "description": "Soy Desarrollador Full Stack y Diseñador Grafico. No sere el mas brillante, pero soy curioso y me adapto y aprendo muy rapido."
+    "description": "Soy Desarrollador de Software y Diseñador Grafico. No sere el mas brillante, pero soy curioso y me adapto y aprendo muy rapido."
   },
   "experience-box": {
     "title": "Años de experiencia"
@@ -44,7 +44,7 @@
     }
   },
   "others-translations": {
-    "degree": "Full Stack Dev | Diseñador Grafico",
+    "degree": "Software Dev | Diseñador Grafico",
     "visit": "Visita",
     "react-love": "Hecho con React y amor.",
     "thanks": "Gracias por llegar hasta aca! ",

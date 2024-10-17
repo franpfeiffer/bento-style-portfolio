@@ -4,10 +4,11 @@ import { useMediaQuery } from '@uidotdev/usehooks'
 import { useTranslation } from 'react-i18next'
 import { MdAutoGraph } from 'react-icons/md'
 import { PiCertificateFill } from "react-icons/pi";
-import { FaGithub, FaLinkedin } from 'react-icons/fa6'			// FaXTwitter (Ln 122)
+import { FaGithub, FaLinkedin } from 'react-icons/fa6' // FaXTwitter (Ln 122)
+
 import Header from '../../theme/components/Header'
 import { useThemeStore } from '../../shared/stores/useThemeStore.ts'
-import { Projects, Experiences } from '../../shared/utils/global-utils.ts' //Experiences 
+import { Projects, Experiences } from '../../shared/utils/global-utils.ts'
 import face from '../../../assets/placeholder.png'
 import personal from '../../../assets/fran.webp'
 import darkMap from '../../../assets/black_map.png'
@@ -73,11 +74,11 @@ const Home = () => {
 								Spanish
 							</button>
 							<button
-								title='ARGENTINO PAPA'
+								title='argentino'
 								className='text-sm font-medium cursor-pointer'
 								onClick={() => switchLanguage('arg')}
 							>
-								ARGENTINO PAPA
+								🧉
 							</button>
 						</div>
 					</div>
