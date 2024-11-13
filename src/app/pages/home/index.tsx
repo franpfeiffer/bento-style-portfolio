@@ -14,7 +14,7 @@ import personal from '../../../assets/fran.webp'
 import darkMap from '../../../assets/black_map.png'
 import whiteMap from '../../../assets/white_map.png'
 import {
-	IProjectCard,
+    IProjectCard,
     IExperienceCard,
 } // IExperienceCard,
 from '../../shared/models/global-interface.ts'

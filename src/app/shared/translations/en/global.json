@@ -1,7 +1,7 @@
 {
   "about-section": {
     "title": "About Me",
-    "description": "I'm a Software Developer and Graphic Designer. Not the sharpest tool in the shed, but I'm curious and a fast learner."
+    "description": "I'm a Software Developer specialize on Front-End development. Not the sharpest tool in the shed, but I'm curious and a fast learner."
   },
   "experience-box": {
     "title": "Years of experience"
@@ -17,7 +17,7 @@
     "projects": {
       "rugbyclick": "The landing page of a well known broadcast and news media about rugby.",
       "gestor": "An app to manage your finances.",
-      "devminds": "The landing page of a software development company.",
+      "chesspvp": "A chess app to play on the same browser.",
       "codimage": "An app that convert your code to an PNG image."
     }
   },

@@ -1,7 +1,7 @@
 {
   "about-section": {
     "title": "Sobre mi",
-    "description": "Soy Desarrollador de Software y Diseñador Grafico. No sere el mas brillante, pero soy curioso y me adapto y aprendo muy rapido."
+    "description": "Soy Desarrollador de Software especializado en desarrollo Front-End. No sere el mas brillante, pero soy curioso y me adapto y aprendo muy rapido."
   },
   "experience-box": {
     "title": "Años de experiencia"
@@ -17,7 +17,7 @@
     "projects": {
       "rugbyclick": "La pagina de un medio de comunicación y noticia sobre el rugby.",
       "gestor": "Una app para gestionar tus finanzas.",
-      "devminds": "La pagina de una compania de desarrollo de software.",
+      "chesspvp": "Una aplicación para jugar al ajedrez en el mismo navegador.",
       "codimage": "Una aplicación que convierte tu código en una imagen PNG."
     }
   },

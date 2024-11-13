@@ -5,6 +5,7 @@ import {
 } from '../models/global-interface.ts'
 import { v4 as uuid } from 'uuid'
 import gestor_img from '../../../assets/gestor.png'
+import chesspvp_img from '../../../assets/chessapp.png
 import codeimage_img from '../../../assets/codecanvas.png'
 import devminds_img from '../../../assets/devminds-web.png'
 import devminds_img_back from '../../../assets/devmind-b2.png'
@@ -37,13 +38,14 @@ export const Projects: IProjectCard[] = [
 	},
 	{
 		id: uuid(),
-		project_name: 'DevMinds',
-		description: 'projects-section.projects.devminds',
-		screenShot: devminds_img,
-		demoLink: 'https://devminds.vercel.app',
+		project_name: 'Chess Game',
+		description: 'projects-section.projects.chesspvp',
+		screenShot: chesspvp_img,
+		demoLink: 'https://chesspvp.vercel.app/',
 		className: 'lg:row-span-3 xl:col-span-4',
+		isPrivate: true,
 		index: 3,
-		technologies: ['Nextjs', 'React', 'TypeScript', 'TailwindCSS'],
+		technologies: ['React', 'TypeScript', 'CSS3'],
 	},
 	{
 		id: uuid(),
@@ -120,11 +122,6 @@ export const DevTools: IDevToolsElement[] = [
 		id: uuid(),
 		name: 'Java',
 		icon: 'https://www.vectorlogo.zone/logos/java/java-icon.svg',
-	},
-    {
-		id: uuid(),
-		name: 'C#',
-		icon: 'https://upload.wikimedia.org/wikipedia/commons/b/bd/Logo_C_sharp.svg',
 	},
 	{
 		id: uuid(),
