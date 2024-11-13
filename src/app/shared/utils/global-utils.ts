@@ -5,7 +5,7 @@ import {
 } from '../models/global-interface.ts'
 import { v4 as uuid } from 'uuid'
 import gestor_img from '../../../assets/gestor.png'
-import chesspvp_img from '../../../assets/chessapp.png
+import chesspvp_img from '../../../assets/chessapp.png'
 import codeimage_img from '../../../assets/codecanvas.png'
 import devminds_img from '../../../assets/devminds-web.png'
 import devminds_img_back from '../../../assets/devmind-b2.png'
