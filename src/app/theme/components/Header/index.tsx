@@ -15,7 +15,7 @@ const Header = () => {
 	return (
 		<header className='w-full overflow-x-hidden h-[5rem] flex justify-center dark:bg-dusky bg-opacity-70 dark:bg-opacity-70 fixed top-0 left-0 z-10 backdrop-blur-lg subpixel-antialiased'>
 			<nav className='w-full h-full flex items-center justify-between py-1 px-5 max-w-5xl xl:max-w-7xl'>
-				<div className='w-7 h-7 bg-dusky flex items-center justify-center dark:bg-moonlit p-4'>
+				<div className='w-10 h-10 bg-dusky flex items-center justify-center dark:bg-moonlit p-4'>
 					<span className='text-moonlit text-md font-semibold dark:text-dusky'>
 						FRN
 					</span>
