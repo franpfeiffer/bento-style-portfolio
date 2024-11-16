@@ -17,7 +17,7 @@ const Header = () => {
 			<nav className='w-full h-full flex items-center justify-between py-1 px-5 max-w-5xl xl:max-w-7xl'>
 				<div className='w-7 h-7 bg-dusky flex items-center justify-center dark:bg-moonlit p-4'>
 					<span className='text-moonlit text-md font-semibold dark:text-dusky'>
-						FP
+						FRN
 					</span>
 				</div>
 				<div className='flex items-center gap-4'>
