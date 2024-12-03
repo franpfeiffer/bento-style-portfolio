@@ -16,7 +16,7 @@
     "personal-experience": "Experiencia Personal",
     "projects": {
       "rugbyclick": "La pagina de un medio de comunicación y noticia sobre el rugby.",
-      "gestor": "Una app para gestionar tus finanzas.",
+      "t2": "Una TUI para trackear y guardar el tiempo que pasas en un proyecto.",
       "chesspvp": "Una aplicación para jugar al ajedrez en el mismo navegador.",
       "codimage": "Una aplicación que convierte tu código en una imagen PNG."
     }

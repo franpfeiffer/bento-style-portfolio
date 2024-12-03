@@ -4,7 +4,7 @@ import {
 	IExperienceCard,
 } from '../models/global-interface.ts'
 import { v4 as uuid } from 'uuid'
-import gestor_img from '../../../assets/gestor.png'
+import t2_img from '../../../assets/t2.png'
 import chesspvp_img from '../../../assets/chessapp.png'
 import codeimage_img from '../../../assets/codecanvas.png'
 import devminds_img_back from '../../../assets/devmind-b2.png'
@@ -26,14 +26,14 @@ export const Projects: IProjectCard[] = [
 	},
 	{
 		id: uuid(),
-		project_name: 'Gestor',
-		description: 'projects-section.projects.gestor',
-		screenShot: gestor_img,
-		demoLink: 'https://gestoruwu.vercel.app/',
+		project_name: 'T2',
+		description: 'projects-section.projects.t2',
+		screenShot: t2_img,
+		demoLink: 'https://github.com/franpfeiffer/t2',
 		className: 'lg:row-span-2 xl:col-span-4',
 		isPrivate: true,
 		index: 2,
-		technologies: ['Expo', 'React Native', 'TypeScript', 'TailwindCSS'],
+		technologies: ['Go', 'Ruby', 'Json'],
 	},
 	{
 		id: uuid(),
