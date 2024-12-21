@@ -9,20 +9,20 @@ import chesspvp_img from '../../../assets/chessapp.png'
 import codeimage_img from '../../../assets/codecanvas.png'
 import devminds_img_back from '../../../assets/devmind-b2.png'
 import devminds_img_b from '../../../assets/devmind-w-square.png'
-import rugbyclick_photo from '../../../assets/rugbyclick-photo.png'
+import pokerpay_photo from '../../../assets/pokerpay.png'
 import femme_img from '../../../assets/femme-logo.jpg'
 import femme_img_bg from '../../../assets/femme-logo-bg.jpg'
 
 export const Projects: IProjectCard[] = [
 	{
 		id: uuid(),
-		project_name: 'RugbyClick',
-		description: 'projects-section.projects.rugbyclick',
-		screenShot: rugbyclick_photo,
-		demoLink: 'https://rugbyclick-test.vercel.app',
+		project_name: 'PokerPay',
+		description: 'projects-section.projects.pokerpay',
+		screenShot: pokerpay_photo,
+		demoLink: 'https://pokerpay.vercel.app',
 		className: 'lg:row-span-3 xl:col-span-4',
 		index: 1,
-		technologies: ['Nextjs', 'React', 'TypeScript', 'TailwindCSS'],
+		technologies: ['Vite', 'React', 'TypeScript', 'TailwindCSS'],
 	},
 	{
 		id: uuid(),
