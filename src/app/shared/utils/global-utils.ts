@@ -5,7 +5,7 @@ import {
 } from '../models/global-interface.ts'
 import { v4 as uuid } from 'uuid'
 import t2_img from '../../../assets/t2.png'
-import chesspvp_img from '../../../assets/chessapp.png'
+import limpify_img from '../../../assets/limpify.png'
 import codeimage_img from '../../../assets/codecanvas.png'
 import devminds_img_back from '../../../assets/devmind-b2.png'
 import devminds_img_b from '../../../assets/devmind-w-square.png'
@@ -26,12 +26,11 @@ export const Projects: IProjectCard[] = [
 	},
 	{
 		id: uuid(),
-		project_name: 'Chess Game',
-		description: 'projects-section.projects.chesspvp',
-		screenShot: chesspvp_img,
-		demoLink: 'https://chesspvp.vercel.app/',
+		project_name: 'Limpify',
+		description: 'projects-section.projects.limpify',
+		screenShot: limpify_img,
+		demoLink: 'https://limpify-demo.vercel.app/',
 		className: 'lg:row-span-2 xl:col-span-4',
-		isPrivate: true,
 		index: 2,
 		technologies: ['React', 'TypeScript', 'CSS3'],
 	},

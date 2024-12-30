@@ -17,7 +17,7 @@
     "projects": {
       "pokerpay": "An app to calculate how to split the money between the players.",
       "t2": "A TUI to track the time you spend on a project.",
-      "chesspvp": "A chess app to play on the same browser.",
+      "limpify": "An app to find people to clean your house (demo)",
       "codimage": "An app that convert your code to an PNG image."
     }
   },
