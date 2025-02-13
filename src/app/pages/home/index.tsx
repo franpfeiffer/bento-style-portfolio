@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 import { useMediaQuery } from '@uidotdev/usehooks'
 import { useTranslation } from 'react-i18next'
 import { MdAutoGraph } from 'react-icons/md'
-import { PiCertificateFill } from "react-icons/pi";
+import { PiCertificateFill } from 'react-icons/pi'
 import { FaGithub, FaLinkedin } from 'react-icons/fa6' // FaXTwitter (Ln 122)
 
 import Header from '../../theme/components/Header'
@@ -16,7 +16,7 @@ import whiteMap from '../../../assets/white_map.png'
 import {
     IProjectCard,
     IExperienceCard,
-} // IExperienceCard,
+}
 from '../../shared/models/global-interface.ts'
 import ProjectCard from '../../theme/components/ProjectCard/ProjectCard.tsx'
 import ExperienceCard from '../../theme/components/ExperienceCard/ExperienceCard.tsx'

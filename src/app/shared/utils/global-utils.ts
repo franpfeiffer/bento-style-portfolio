@@ -10,8 +10,8 @@ import codeimage_img from '../../../assets/codecanvas.png'
 import devminds_img_back from '../../../assets/devmind-b2.png'
 import devminds_img_b from '../../../assets/devmind-w-square.png'
 import pokerpay_photo from '../../../assets/pokerpay.png'
-import femme_img from '../../../assets/femme-logo.jpg'
-import femme_img_bg from '../../../assets/femme-logo-bg.jpg'
+import gaucho_img from '../../../assets/gaucho-logo.webp'
+import gaucho_img_bg from '../../../assets/gauchodigital-bg.webp'
 
 export const Projects: IProjectCard[] = [
 	{
@@ -62,7 +62,7 @@ export const Experiences: IExperienceCard[] = [
 		id: uuid(),
 		company_logo: devminds_img_b,
 		company_name: 'DevMinds',
-		position_name: 'DevMinds',
+		position_name: 'Software Developer',
 		dates: 'experience-section.companies.devmind.dates',
 		url_site: 'https://devminds.vercel.app/',
         git_code: 'https://github.com/franpfeiffer/DevMinds-Landing-page',
@@ -70,13 +70,13 @@ export const Experiences: IExperienceCard[] = [
 	},
 	{
 		id: uuid(),
-		company_logo: femme_img,
-		company_name: 'Femme',
-		position_name: 'Femme',
-		dates: 'experience-section.companies.femme.dates',
-		url_site: 'https://www.instagram.com/femmelenceria/',
+		company_logo: gaucho_img,
+		company_name: 'Gaucho Digital',
+		position_name: 'Software Developer',
+		dates: 'experience-section.companies.gaucho.dates',
+		url_site: 'https://gaucho.digital/',
         git_code: 'https://github.com/franpfeiffer/femme',
-		background_url: femme_img_bg,
+		background_url: gaucho_img_bg,
 	},
 ]
 

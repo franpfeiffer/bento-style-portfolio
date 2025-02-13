@@ -32,8 +32,8 @@
       "devmind": {
         "dates": "June 2023 - October 2024"
       },
-      "femme": {
-        "dates": "September 2023 - October 2023"
+      "gaucho": {
+        "dates": "February 2025 - Currently"
       },
       "e": {
         "dates": ""
@@ -44,7 +44,7 @@
     }
   },
   "others-translations": {
-    "degree": "Software Dev | Graphic Designer",
+    "degree": "Software Dev",
     "visit": "Visit",
     "react-love": "Made with React and love.",
     "thanks": "Thanks for getting to here! ",

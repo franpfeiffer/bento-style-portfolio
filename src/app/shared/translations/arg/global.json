@@ -32,8 +32,8 @@
       "devmind": {
         "dates": "Junio 2023 - Octubre 2024"
       },
-      "femme": {
-        "dates": "Septiembre 2023 - Octubre 2023"
+      "gaucho": {
+        "dates": "Febrero 2025 - Actualmente"
       },
       "e": {
         "dates": ""
@@ -44,7 +44,7 @@
     }
   },
   "others-translations": {
-    "degree": "Dev Re Pro | Diseñador Re Pro",
+    "degree": "Dev Re Pro",
     "visit": "Juira",
     "react-love": "Dios, Patria, Familia y React.",
     "thanks": "Gracias por tu tiempo, espero que te haya sacado una sonrisa aunque sea. ",
