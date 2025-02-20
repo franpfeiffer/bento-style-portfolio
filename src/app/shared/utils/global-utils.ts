@@ -9,20 +9,20 @@ import limpify_img from '../../../assets/limpify.png'
 import codeimage_img from '../../../assets/codecanvas.png'
 import devminds_img_back from '../../../assets/devmind-b2.png'
 import devminds_img_b from '../../../assets/devmind-w-square.png'
-import pokerpay_photo from '../../../assets/pokerpay.png'
+import gsk_img from '../../../assets/gsk.png'
 import gaucho_img from '../../../assets/gaucho-logo.webp'
 import gaucho_img_bg from '../../../assets/gauchodigital-bg.webp'
 
 export const Projects: IProjectCard[] = [
 	{
 		id: uuid(),
-		project_name: 'PokerPay',
-		description: 'projects-section.projects.pokerpay',
-		screenShot: pokerpay_photo,
+		project_name: 'Herpes Zoster',
+		description: 'projects-section.projects.gsk',
+		screenShot: gsk_img,
 		demoLink: 'https://pokerpay.vercel.app',
 		className: 'lg:row-span-3 xl:col-span-4',
 		index: 1,
-		technologies: ['Vite', 'React', 'TypeScript', 'TailwindCSS'],
+		technologies: ['Next', 'React', 'TypeScript', 'TailwindCSS'],
 	},
 	{
 		id: uuid(),
