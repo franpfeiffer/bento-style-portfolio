@@ -75,7 +75,7 @@ export const Experiences: IExperienceCard[] = [
 		position_name: 'Software Developer',
 		dates: 'experience-section.companies.gaucho.dates',
 		url_site: 'https://gaucho.digital/',
-        git_code: 'https://github.com/franpfeiffer/femme',
+        git_code: 'https://github.com/MarcoSavarin0/landing-for-gaucho',
 		background_url: gaucho_img_bg,
 	},
 ]
