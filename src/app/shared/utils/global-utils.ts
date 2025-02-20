@@ -19,7 +19,7 @@ export const Projects: IProjectCard[] = [
 		project_name: 'Herpes Zoster',
 		description: 'projects-section.projects.gsk',
 		screenShot: gsk_img,
-		demoLink: 'https://pokerpay.vercel.app',
+		demoLink: 'https://www.hablemosdezoster.com/',
 		className: 'lg:row-span-3 xl:col-span-4',
 		index: 1,
 		technologies: ['Next', 'React', 'TypeScript', 'TailwindCSS'],
