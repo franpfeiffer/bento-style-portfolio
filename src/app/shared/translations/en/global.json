@@ -1,7 +1,7 @@
 {
   "about-section": {
     "title": "About Me",
-    "description": "I'm a Software Developer specialize on Front-End development. Not the sharpest tool in the shed, but I'm curious and a fast learner."
+    "description": "I'm a Software Developer who enjoys building tools. Not the sharpest tool in the shed, but I'm curious and a fast learner."
   },
   "experience-box": {
     "title": "Years of experience"
@@ -15,10 +15,10 @@
     "work-experience": "Work Experience",
     "personal-experience": "Personal Experience",
     "projects": {
-      "gsk": "The webpage of a company that to raise awareness about the Herpes Zoster.",
+      "gsk": "The webpage of a farmaceutical company to raise awareness about the Herpes Zoster.",
       "t2": "A TUI to track the time you spend on a project.",
-      "limpify": "An app to find people to clean your house (demo)",
-      "codimage": "An app that convert your code to an PNG image."
+      "term2": "A neovim plugin to open a terminal above the current buffer.",
+      "stda": "The webpage of a farmaceutical company to raise awareness about respiratory diseases."
     }
   },
   "technologies-section": {

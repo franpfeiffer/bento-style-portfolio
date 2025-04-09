@@ -1,7 +1,7 @@
 {
   "about-section": {
     "title": "Sobre mi",
-    "description": "Soy Desarrollador de Software especializado en desarrollo Front-End. No sere el mas brillante, pero soy curioso y me adapto y aprendo muy rapido."
+    "description": "Soy Desarrollador de Software que disfruta de programar herramientas. No sere el mas brillante, pero soy curioso y me adapto y aprendo muy rapido."
   },
   "experience-box": {
     "title": "Años de experiencia"
@@ -15,10 +15,10 @@
     "work-experience": "Experiencia Laboral",
     "personal-experience": "Experiencia Personal",
     "projects": {
-      "gsk": "Una empresa que se dedica a la conscientizar sobre el Herpes Zoster.",
+      "gsk": "Una empresa farmaceutica (GSK) que se dedica a la conscientizar sobre herpes zoster.",
       "t2": "Una TUI para trackear y guardar el tiempo que pasas en un proyecto.",
-      "limpify": "Una aplicación para encontrar personas para limpiar tu casa (demo)",
-      "codimage": "Una aplicación que convierte tu código en una imagen PNG."
+      "term2": "Un plugin de neovim para abrir una terminal arriba del buffer actual.",
+      "stda": "Una empresa farmaceutica (GSK) que se dedica a la conscientizar sobre enfermedades respiratorias."
     }
   },
   "technologies-section": {
