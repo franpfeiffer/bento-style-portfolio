@@ -29,7 +29,7 @@ export const Projects: IProjectCard[] = [
         project_name: 'Saber te da aire',
         description: 'projects-section.projects.stda',
         screenShot: stda_img,
-        demoLink: 'https://stda.com.ar/',
+        demoLink: 'https://sabertedaaire.com.ar/',
         className: 'lg:row-span-2 xl:col-span-4',
         index: 2,
         technologies: ['React', 'JavaScript', 'CSS3'],
