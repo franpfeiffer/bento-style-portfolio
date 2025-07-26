@@ -15,10 +15,38 @@
     "work-experience": "Este fue laburo posta",
     "personal-experience": "Esto lo hice porque me pinto",
     "projects": {
-      "pokerpay": "La unica forma de que los ratas de tus amigos no se maten cuando juegan al poker.",
-      "t2": "Una TUI re fachera para ver todo el tiempo que perdes en tus proyectos sin terminar.",
-      "limpify": "Una app re loca para conseguir a alguien que te limpie la casa vago (demo)",
-      "codimage": "Esto agarra tu codigo horrible y le revolea brillitos para que no parezca tan feo."
+        "gsk": "Una página web de una empresa farmacéutica llamada GSK para crear conciencia sobre el Herpes Zóster.",
+        "t2": "Una TUI para rastrear el tiempo que pasas en un proyecto.",
+        "term2": "Un plugin de neovim para abrir una terminal arriba del buffer actual.",
+        "stda": "Una página web de una empresa farmacéutica llamada GSK para crear conciencia sobre enfermedades respiratorias.",
+        "pokerpay": "Una página web para calcular un juego de poker con tus amigos.",
+        "showdown": "Una página web para analizar un juego de pokemon showdown.",
+        "bdm": "Una página web de una empresa farmacéutica llamada GSK para crear conciencia sobre la Meningitis.",
+        "vsr": "Una página web de una empresa farmacéutica llamada GSK para crear conciencia sobre el Virus Respiratorio Sincitial."
+    },
+    "view-all": "Visita todos"
+  },
+  "projects-page": {
+    "title": "Todos Mis Laburos",
+    "description": "Aca esta todo lo que hice, desde cosas que me pagaron hasta boludeces que me pinte hacer un domingo.",
+    "search-placeholder": "Busca laburos por nombre, tecnologia o lo que se te ocurra...",
+    "filter-by": "Filtrar por",
+    "filters": {
+      "all": "Todos Los Laburos",
+      "work": "Laburo Posta",
+      "personal": "Boludeces Mias"
+    },
+    "clear-filters": "Borrar Todo",
+    "showing-results": "Mostrando {{count}} de {{total}} laburos",
+    "no-results": {
+      "title": "No hay nada papa",
+      "description": "Proba buscando otra cosa o borra los filtros, a ver si aparece algo."
+    },
+    "stats": {
+      "total-projects": "Laburos Totales",
+      "work-projects": "Laburos Pagos",
+      "personal-projects": "Boludeces Gratis",
+      "technologies": "Cosas que Se"
     }
   },
   "technologies-section": {

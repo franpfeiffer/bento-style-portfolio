@@ -12,6 +12,10 @@ import devminds_img_b from '../../../assets/devmind-w-square.png'
 import gsk_img from '../../../assets/gsk.png'
 import gaucho_img from '../../../assets/gaucho-logo.webp'
 import gaucho_img_bg from '../../../assets/gauchodigital-bg.webp'
+import pokerpay_img from '../../../assets/pokerpay.png'
+import showdown_img from '../../../assets/showdown.png'
+import vsr_img from '../../../assets/vsr.jpg'
+import bdm_img from '../../../assets/bdm.jpg'
 
 export const Projects: IProjectCard[] = [
     {
@@ -36,13 +40,35 @@ export const Projects: IProjectCard[] = [
     },
     {
         id: uuid(),
+        project_name: 'Virus Sincicial Respiratorio',
+        description: 'projects-section.projects.vsr',
+        screenShot: vsr_img,
+        demoLink: 'https://virusvsr.com/',
+        className: 'lg:row-span-3 xl:col-span-4',
+        isPrivate: false,
+        index: 3,
+        technologies: ['HTML', 'CSS3', 'JavaScript'],
+    },
+    {
+        id: uuid(),
+        project_name: 'Basta de Meningitis',
+        description: 'projects-section.projects.bdm',
+        screenShot: bdm_img,
+        demoLink: 'https://www.bastademeningitis.com.ar/',
+        className: 'lg:row-span-2 xl:col-span-4',
+        isPrivate: false,
+        index: 4,
+        technologies: ['JavaScript', 'HTML', 'CSS3'],
+    },
+    {
+        id: uuid(),
         project_name: 'TERM2',
         description: 'projects-section.projects.term2',
         screenShot: term2_img,
         demoLink: 'https://github.com/franpfeiffer/term2.nvim',
         className: 'lg:row-span-3 xl:col-span-4',
         isPrivate: true,
-        index: 3,
+        index: 5,
         technologies: ['Lua'],
     },
     {
@@ -53,8 +79,30 @@ export const Projects: IProjectCard[] = [
         demoLink: 'https://github.com/franpfeiffer/t2',
         className: 'lg:row-span-2 xl:col-span-4',
         isPrivate: true,
-        index: 4,
+        index: 6,
         technologies: ['Go', 'Ruby', 'Json'],
+    },
+    {
+        id: uuid(),
+        project_name: 'PokerPay',
+        description: 'projects-section.projects.pokerpay',
+        screenShot: pokerpay_img,
+        demoLink: 'https://pokerpay.pfeifferf.com/',
+        className: 'lg:row-span-3 xl:col-span-4',
+        isPrivate: true,
+        index: 7,
+        technologies: ['React', 'TailwindCSS', 'Typescript'],
+    },
+    {
+        id: uuid(),
+        project_name: 'Showdown Analizer',
+        description: 'projects-section.projects.showdown',
+        screenShot: showdown_img,
+        demoLink: 'https://showdown.pfeifferf.com/',
+        className: 'lg:row-span-2 xl:col-span-4',
+        isPrivate: true,
+        index: 8,
+        technologies: ['Go', 'HTMX', 'Docker'],
     },
 ]
 export const Experiences: IExperienceCard[] = [

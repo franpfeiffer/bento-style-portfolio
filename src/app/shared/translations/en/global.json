@@ -15,10 +15,38 @@
     "work-experience": "Work Experience",
     "personal-experience": "Personal Experience",
     "projects": {
-      "gsk": "The webpage of a farmaceutical company to raise awareness about the Herpes Zoster.",
+      "gsk": "The webpage of a farmaceutical company called GSK to raise awareness about the Herpes Zoster.",
       "t2": "A TUI to track the time you spend on a project.",
       "term2": "A neovim plugin to open a terminal above the current buffer.",
-      "stda": "The webpage of a farmaceutical company to raise awareness about respiratory diseases."
+      "stda": "The webpage of a farmaceutical company called GSK to raise awareness about respiratory diseases.",
+      "pokerpay": "The webpage to calculate a poker game with your friends.",
+      "showdown": "The webpage to analyze a pokemon showdown game.",
+      "bdm": "The webpage of a farmaceutical company called GSK to raise awareness about the Meningitis.",
+      "vsr": "The webpage of a farmaceutical company called GSK to raise awareness about the Respiratory Syncytial Virus."
+    },
+    "view-all": "View all"
+  },
+  "projects-page": {
+    "title": "My Projects",
+    "description": "Explore all the projects I've worked on, from professional web applications to personal development tools.",
+    "search-placeholder": "Search projects by name, technology, or description...",
+    "filter-by": "Filter by",
+    "filters": {
+      "all": "All Projects",
+      "work": "Work Experience",
+      "personal": "Personal Projects"
+    },
+    "clear-filters": "Clear Filters",
+    "showing-results": "Showing {{count}} of {{total}} projects",
+    "no-results": {
+      "title": "No projects found",
+      "description": "Try adjusting your search terms or clearing the filters to see more results."
+    },
+    "stats": {
+      "total-projects": "Total Projects",
+      "work-projects": "Work Projects",
+      "personal-projects": "Personal Projects",
+      "technologies": "Technologies Used"
     }
   },
   "technologies-section": {

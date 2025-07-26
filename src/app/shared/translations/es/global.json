@@ -15,10 +15,38 @@
     "work-experience": "Experiencia Laboral",
     "personal-experience": "Experiencia Personal",
     "projects": {
-      "gsk": "Una empresa farmaceutica (GSK) que se dedica a la conscientizar sobre herpes zoster.",
-      "t2": "Una TUI para trackear y guardar el tiempo que pasas en un proyecto.",
-      "term2": "Un plugin de neovim para abrir una terminal arriba del buffer actual.",
-      "stda": "Una empresa farmaceutica (GSK) que se dedica a la conscientizar sobre enfermedades respiratorias."
+        "gsk": "Una página web de una empresa farmacéutica llamada GSK para crear conciencia sobre el Herpes Zóster.",
+        "t2": "Una TUI para rastrear el tiempo que pasas en un proyecto.",
+        "term2": "Un plugin de neovim para abrir una terminal arriba del buffer actual.",
+        "stda": "Una página web de una empresa farmacéutica llamada GSK para crear conciencia sobre enfermedades respiratorias.",
+        "pokerpay": "Una página web para calcular un juego de poker con tus amigos.",
+        "showdown": "Una página web para analizar un juego de pokemon showdown.",
+        "bdm": "Una página web de una empresa farmacéutica llamada GSK para crear conciencia sobre la Meningitis.",
+        "vsr": "Una página web de una empresa farmacéutica llamada GSK para crear conciencia sobre el Virus Respiratorio Sincitial."
+    },
+    "view-all": "Ver todos"
+  },
+  "projects-page": {
+    "title": "Mis Proyectos",
+    "description": "Explora todos los proyectos en los que he trabajado, desde aplicaciones web profesionales hasta herramientas de desarrollo personal.",
+    "search-placeholder": "Buscar proyectos por nombre, tecnología o descripción...",
+    "filter-by": "Filtrar por",
+    "filters": {
+      "all": "Todos los Proyectos",
+      "work": "Experiencia Laboral",
+      "personal": "Proyectos Personales"
+    },
+    "clear-filters": "Limpiar Filtros",
+    "showing-results": "Mostrando {{count}} de {{total}} proyectos",
+    "no-results": {
+      "title": "No se encontraron proyectos",
+      "description": "Intenta ajustar los términos de búsqueda o limpiar los filtros para ver más resultados."
+    },
+    "stats": {
+      "total-projects": "Proyectos Totales",
+      "work-projects": "Proyectos Laborales",
+      "personal-projects": "Proyectos Personales",
+      "technologies": "Tecnologías Usadas"
     }
   },
   "technologies-section": {
