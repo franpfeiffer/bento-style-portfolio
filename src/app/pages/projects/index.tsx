@@ -32,7 +32,7 @@ const ProjectsPage = () => {
 
     useEffect(() => {
         setIsMobile(mobile)
-    }, [mobile])
+    }, [isMobile])
 
     const allTechnologies = [...new Set(Projects.flatMap(project => project.technologies))]
 
@@ -150,8 +150,8 @@ const ProjectsPage = () => {
                             <button
                                 onClick={() => setSelectedFilter('all')}
                                 className={`px-4 py-2 rounded-lg text-sm font-medium transition-all duration-300 ${selectedFilter === 'all'
-                                        ? 'bg-neon-blue text-white'
-                                        : 'bg-white dark:bg-raisin-black hover:bg-gray-100 dark:hover:bg-gray-800'
+                                    ? 'bg-neon-blue text-white'
+                                    : 'bg-white dark:bg-raisin-black hover:bg-gray-100 dark:hover:bg-gray-800'
                                     }`}
                             >
                                 {t('projects-page.filters.all')}
@@ -159,8 +159,8 @@ const ProjectsPage = () => {
                             <button
                                 onClick={() => setSelectedFilter('work')}
                                 className={`px-4 py-2 rounded-lg text-sm font-medium transition-all duration-300 ${selectedFilter === 'work'
-                                        ? 'bg-neon-blue text-white'
-                                        : 'bg-white dark:bg-raisin-black hover:bg-gray-100 dark:hover:bg-gray-800'
+                                    ? 'bg-neon-blue text-white'
+                                    : 'bg-white dark:bg-raisin-black hover:bg-gray-100 dark:hover:bg-gray-800'
                                     }`}
                             >
                                 {t('projects-page.filters.work')}
@@ -168,8 +168,8 @@ const ProjectsPage = () => {
                             <button
                                 onClick={() => setSelectedFilter('personal')}
                                 className={`px-4 py-2 rounded-lg text-sm font-medium transition-all duration-300 ${selectedFilter === 'personal'
-                                        ? 'bg-neon-blue text-white'
-                                        : 'bg-white dark:bg-raisin-black hover:bg-gray-100 dark:hover:bg-gray-800'
+                                    ? 'bg-neon-blue text-white'
+                                    : 'bg-white dark:bg-raisin-black hover:bg-gray-100 dark:hover:bg-gray-800'
                                     }`}
                             >
                                 {t('projects-page.filters.personal')}
@@ -180,8 +180,8 @@ const ProjectsPage = () => {
                                     key={tech}
                                     onClick={() => setSelectedFilter(tech)}
                                     className={`px-4 py-2 rounded-lg text-sm font-medium transition-all duration-300 ${selectedFilter === tech
-                                            ? 'bg-neon-blue text-white'
-                                            : 'bg-white dark:bg-raisin-black hover:bg-gray-100 dark:hover:bg-gray-800'
+                                        ? 'bg-neon-blue text-white'
+                                        : 'bg-white dark:bg-raisin-black hover:bg-gray-100 dark:hover:bg-gray-800'
                                         }`}
                                 >
                                     {tech}
