@@ -13,7 +13,7 @@ import { IProjectCard } from '../../shared/models/global-interface'
 import { useTranslateStore } from '../../shared/stores/useTranslateStore'
 import { switchLanguage } from '../../shared/utils/translate-utils'
 
-const ProjectsPage = () => {
+const Project = () => {
     const { t } = useTranslation('global')
     const [isMobile, setIsMobile] = useState(false)
     const [searchTerm, setSearchTerm] = useState('')
@@ -286,4 +286,4 @@ const ProjectsPage = () => {
     )
 }
 
-export default ProjectsPage
+export default Project

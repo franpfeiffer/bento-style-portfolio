@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Home from './pages/home'
-import Projects from './pages/projects'
+import Project from './pages/projects'
 import '../app/theme/styles/global.css'
 import { applyThemePreference } from './shared/utils/theme-utils.ts'
 import { useThemeStore } from './shared/stores/useThemeStore.ts'
@@ -33,7 +33,7 @@ function App() {
         <Router>
             <Routes>
                 <Route path="/" element={<Home />} />
-                <Route path="/projects" element={<Projects />} />
+                <Route path="/projects" element={<Project />} />
             </Routes>
         </Router>
     )
